@@ -6,11 +6,15 @@ body{
     background: #FFFFFF;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .top-container{
     display: flex;
     background-color: #2D25A0;
     
+}
+.top-container:hover{
+    background-image: linear-gradient(purple, gray );
 }
 .headre-left{
     margin-left: 156px;
@@ -32,6 +36,10 @@ body{
     padding: 10px 24px;
     margin-top: 27px;
 }
+/* .headre-left a:hover{
+    transform: scale3d(10deg 10deg 10deg);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+} */
 .top-container img{
     width: 556.01px;
     height: 438px;
@@ -87,3 +95,45 @@ body{
     margin-top: 5px;
     margin-bottom: 0px;
 }
+/* third section */
+.third-container{
+    display: flex;
+    align-items: center;
+}
+.third-section-left{
+    margin-left: 182px;
+    margin-top: 224px;
+}
+.third-container h1{
+    width: 400px;
+    height: 140px;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #0A0826;
+}
+.third-container img{
+    width: 567px;
+    height: 427px;
+    margin-top: 165px;
+    margin-right: 120px;
+    margin-left: 66px;
+}
+.third-container a{
+    width: 173px;
+    height: 44px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+    margin-top: 24px;
+}
+.third-container a:hover{
+    background-image: linear-gradient(pink, red);
+}
+.third-container p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
