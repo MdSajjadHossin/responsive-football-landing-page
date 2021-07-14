@@ -36,10 +36,6 @@ body{
     padding: 10px 24px;
     margin-top: 27px;
 }
-/* .headre-left a:hover{
-    transform: scale3d(10deg 10deg 10deg);
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-} */
 .top-container img{
     width: 556.01px;
     height: 438px;
@@ -47,7 +43,12 @@ body{
     margin-bottom: 86px;
     margin-left: 102px;
     margin-right: 140.99px;
+    transition: 1s;
 }
+.top-container img:hover{
+    transform: scale(1.1);
+}
+
 /* top section end */
 .players{
     display: grid;
@@ -118,6 +119,10 @@ body{
     margin-top: 165px;
     margin-right: 120px;
     margin-left: 66px;
+    transition: 1s;
+}
+.third-container img:hover{
+    transform: scale(1.2);
 }
 .third-container a{
     width: 173px;
@@ -156,7 +161,7 @@ body{
 }
 .photo-gallery .gallery-items img{
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
 .gallery-items .item-1{
     grid-column-start: 1;
@@ -170,3 +175,36 @@ body{
     grid-column-start: 1;
     grid-column-end: 4;
 }
+/* fourth section end */
+
+/* footer section */
+.footer-section{
+    /* display: flex; */
+    width: 483.87px;
+    height: 213px;
+    text-align: center;
+    margin-left: 30%
+}
+.logo img{
+    width: 483.87px;
+    height: 110px;
+    margin-top: 158px;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon{
+    font-size: 50px;
+    color: #969BAB;
+    margin-top: 20px;
+}
+.social-icon a i{
+    background-color: white;
+    border-radius: 50%;
+}
+.footer-section h4{
+    margin-top: 20px;
+    margin-bottom: 63px;
+    font-size: 18px;
+    color: #000000;
+}
+
