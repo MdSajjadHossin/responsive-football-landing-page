@@ -49,8 +49,9 @@ body{
 .top-container img:hover{
     transform: scale(1.1);
 }
+/*----------- top section end------------ */
 
-/* top section end */
+/*----------- second section starts------------ */
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,7 +98,7 @@ body{
     margin-top: 5px;
     margin-bottom: 0px;
 }
-/* third section */
+/*-------------- third section-------------------- */
 .third-container{
     display: flex;
     align-items: center;
@@ -142,8 +143,9 @@ body{
     line-height: 28px;
     color: #6C6C6C;
 }
-/* third section ended */
-/* fourth section started */
+/*----------- third section ended------------------- */
+
+/*---------------- fourth section started------------ */
 .Extra-add h1{
     font-size: 45px;
     font-weight: bold;
@@ -208,9 +210,9 @@ body{
     font-size: 18px;
     color: #000000;
 }
-/* Media queries */
+/*------- Media queries starts------ */
 
-/* mobile devices */
+/*------ mobile devices------ */
 @media only screen and (max-width:688px){
     .top-container{
         width: 100%;
@@ -320,7 +322,9 @@ body{
         justify-content: center;
     }
 } 
-/* tablet devices */
+/*----------- mobile device end------------ */
+
+/*----------- tablet devices------------- */
 @media only screen and (min-width:688px) and (max-width:992px){
     .top-container{
         width: 100%;
