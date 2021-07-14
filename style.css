@@ -136,4 +136,37 @@ body{
     line-height: 28px;
     color: #6C6C6C;
 }
+/* third section ended */
+/* fourth section started */
+.Extra-add h1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 155px;
+}
 
+.gallery-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+.photo-gallery .gallery-items img{
+    width: 100%;
+    height: 300px;
+}
+.gallery-items .item-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.gallery-items .item-5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.gallery-items .item-7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
