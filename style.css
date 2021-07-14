@@ -9,6 +9,7 @@ body{
     overflow-x: hidden;
 }
 .top-container{
+    width: 100%;
     display: flex;
     background-color: #2D25A0;
     
@@ -207,4 +208,112 @@ body{
     font-size: 18px;
     color: #000000;
 }
+/* Media queries */
+
+/* mobile devices */
+@media only screen and (max-width:688px){
+    .top-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .headre-left h1{
+        width: 278px;
+        height: 138px;
+        color: #FFFFFF;
+        font-size: 36px;
+        font-weight: bold;
+        line-height: 50px;
+        margin-left: 16px;
+        margin-right: 66px;
+        margin-bottom: 30px;
+        align-items: flex-start;
+    }
+    .top-container img{
+        width: 100%;
+        margin: auto;
+        padding: auto;
+    }
+    .third-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        
+        
+    }
+    .third-container a:hover{
+        background-image: linear-gradient(pink, red);
+    }
+    .third-section-left{
+        width:100%;
+        height:100%;
+        margin: auto;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .third-container h1{
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        line-height: 40px;
+        margin-left: 15px;
+        margin-right: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+    .third-container p{
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 28px;
+        margin-left: 15px;
+        margin-right: 16px;
+    }
+    .third-container a{
+        margin-left: 15px;
+        margin-right: 16px;
+    }
+    .photo-gallery .gallery-items img{
+        width: 100%;
+        height: 100%;
+    }
+    .footer-section{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 18px;
+    }
+} 
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .top-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+    }
+    .third-container{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%; 
+    }
+    .footer-section{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    
+}
+
 
